@@ -8,7 +8,7 @@ public class FractionOperations {
 	Scanner scanner = new Scanner(System.in);
 	System.out.println("Введите дроби, разделяя все символы пробелами. \n"
 			+ "Сначала введите числитель первого числа, затем знаменатель первого числа. \n"
-			+ "также поступите и со второй дробью: числитель, enter, знаменатель.");
+			+ "Также поступите и со второй дробью: числитель, enter, знаменатель.");
 	int x = scanner.nextInt(); 
 	int y = scanner.nextInt(); 
 	int z = scanner.nextInt(); 
