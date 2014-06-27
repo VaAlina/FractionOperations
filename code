@@ -1,0 +1,25 @@
+FractionOperations 1.0
+==================
+
+package toBytes;
+import java.util.*;
+public class FractionOperations {
+	   public static void main(String args[]){
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("Введите дроби, разделяя все символы пробелами. \n"
+			+ "Сначала введите числитель первого числа, затем знаменатель первого числа. \n"
+			+ "также поступите и со второй дробью: числитель, enter, знаменатель.");
+	int x = scanner.nextInt(); 
+	int y = scanner.nextInt(); 
+	int z = scanner.nextInt(); 
+	int v = scanner.nextInt(); 
+
+	int a = x*v+z*y;
+	int b = y*v;
+	
+	System.out.println(a+"/"+b);
+	double c = (double) a/b;
+	System.out.println(c); 
+
+}
+}
